@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1701270008">
+  <File Type="ROUTE-PWR" Name="ram_arbiter_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ram_arbiter.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="ram_arbiter_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ram_arbiter_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="ram_arbiter.msk"/>
+  <File Type="ROUTE-CLK" Name="ram_arbiter_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="ram_arbiter.vdi"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ram_arbiter_bus_skew_routed.rpt"/>
+  <File Type="PA-DCP" Name="ram_arbiter.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ram_arbiter_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="ram_arbiter.bit"/>
+  <File Type="BG-DRC" Name="ram_arbiter.drc"/>
+  <File Type="BG-BGN" Name="ram_arbiter.bgn"/>
+  <File Type="BG-BIN" Name="ram_arbiter.bin"/>
+  <File Type="BITSTR-RBT" Name="ram_arbiter.rbt"/>
+  <File Type="BITSTR-NKY" Name="ram_arbiter.nky"/>
+  <File Type="BITSTR-BMM" Name="ram_arbiter_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="ram_arbiter.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ram_arbiter_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="ram_arbiter.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ram_arbiter_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ram_arbiter.ltx"/>
+  <File Type="BOOT-PDI-FILE" Name="ram_arbiter_boot.pdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="NPI_FILE" Name="ram_arbiter.npi"/>
+  <File Type="OPT-DRC" Name="ram_arbiter_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ram_arbiter.hwdef"/>
+  <File Type="PLACE-IO" Name="ram_arbiter_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ram_arbiter_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ram_arbiter_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ram_arbiter_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ram_arbiter_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="ram_arbiter_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ram_arbiter_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ram_arbiter_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ram_arbiter_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ram_arbiter_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="ram_arbiter_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ram_arbiter_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ram_arbiter_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ram_arbiter_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ram_arbiter_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ram_arbiter_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ram_arbiter_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ram_arbiter_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ram_arbiter_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="ram_arbiter_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="ram_arbiter_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="ram_arbiter_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ram_arbiter_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="ram_arbiter_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ram_arbiter_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ram_arbiter_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ram_arbiter_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ram_arbiter_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ram_arbiter_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ram_arbiter_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ram_arbiter_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="ram_arbiter_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ram_arbiter_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="ram_arbiter.pdi"/>
+  <File Type="PL-PDI-FILE" Name="ram_arbiter_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="ram_arbiter.rcfi"/>
+  <File Type="CFI_FILE" Name="ram_arbiter.cfi"/>
+  <File Type="RNPI_FILE" Name="ram_arbiter.rnpi"/>
+  <File Type="RBD_FILE" Name="ram_arbiter.rbd"/>
+  <File Type="ROUTE-RQS" Name="ram_arbiter_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="ram_arbiter_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/ram_arbiter.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ram_arbiter"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

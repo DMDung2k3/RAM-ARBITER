@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/downloads/.xinstall/Vivado/ram_arbiter_v2/ram_arbiter_v2.srcs/sources_1/new/ram_arbiter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module arbiter
+INFO: [VRFC 10-311] analyzing module ram
+INFO: [VRFC 10-311] analyzing module ram_arbiter
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/downloads/.xinstall/Vivado/ram_arbiter_v2/ram_arbiter_v2.srcs/sim_1/new/ram_arbiter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

@@ -1,0 +1,4 @@
+Running: xsim.dir/ARBITER_TEST_behav/xsimk.exe -simmode gui -wdb ARBITER_TEST_behav.wdb -simrunnum 0 -socket 60595
+Design successfully loaded
+Design Loading Memory Usage: 7968 KB (Peak: 7968 KB)
+Design Loading CPU Usage: 0 ms

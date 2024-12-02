@@ -1,0 +1,247 @@
+
+*** Running vivado
+    with args -log ARBITER_NEW.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ARBITER_NEW.tcl
+
+
+ECHO is off.
+ECHO is off.
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source ARBITER_NEW.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 467.457 ; gain = 185.262
+Command: read_checkpoint -auto_incremental -incremental E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/utils_1/imports/synth_1/ARBITER_NEW.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/utils_1/imports/synth_1/ARBITER_NEW.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top ARBITER_NEW -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {17-179}  -suppress '. The existing rule will be replaced.
+INFO: [Synth 8-7075] Helper process launched with PID 30240
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 917.273 ; gain = 438.309
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ARBITER_NEW' [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:70]
+WARNING: [Synth 8-614] signal 'RST_N' is read in the process but is not in the sensitivity list [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:125]
+WARNING: [Synth 8-614] signal 'nx_client_read' is read in the process but is not in the sensitivity list [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:125]
+WARNING: [Synth 8-614] signal 'nx_client_write' is read in the process but is not in the sensitivity list [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:125]
+WARNING: [Synth 8-614] signal 'COUNT' is read in the process but is not in the sensitivity list [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:125]
+WARNING: [Synth 8-614] signal 'RD_EN_C1' is read in the process but is not in the sensitivity list [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:125]
+WARNING: [Synth 8-614] signal 'REQUEST_C2' is read in the process but is not in the sensitivity list [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:125]
+WARNING: [Synth 8-614] signal 'RD_NOT_WRITE_C2' is read in the process but is not in the sensitivity list [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:125]
+WARNING: [Synth 8-614] signal 'WR_EN_C1' is read in the process but is not in the sensitivity list [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:125]
+WARNING: [Synth 8-614] signal 'RST_N' is read in the process but is not in the sensitivity list [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:234]
+INFO: [Synth 8-256] done synthesizing module 'ARBITER_NEW' (0#1) [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:70]
+WARNING: [Synth 8-6014] Unused sequential element TEMP_RD_DATA1_reg was removed.  [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:241]
+WARNING: [Synth 8-6014] Unused sequential element TEMP_RD_DATA2_reg was removed.  [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:242]
+WARNING: [Synth 8-6014] Unused sequential element ADDR_CLASHI_reg was removed.  [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:296]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1027.770 ; gain = 548.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1027.770 ; gain = 548.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1027.770 ; gain = 548.805
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+WARNING: [Synth 8-327] inferring latch for variable 'RESET_DONE_REG_reg' [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:130]
+WARNING: [Synth 8-327] inferring latch for variable 'RD_DATA_C1_reg' [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:323]
+WARNING: [Synth 8-327] inferring latch for variable 'nx_client_write_reg' [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:112]
+WARNING: [Synth 8-327] inferring latch for variable 'nx_client_read_reg' [E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.srcs/sources_1/new/arbiter.vhd:111]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1027.770 ; gain = 548.805
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 3     
+	   2 Input    4 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 71    
+	   3 Input    3 Bit        Muxes := 4     
+	   5 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 45    
+	   3 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (RESET_DONE_REG_reg) is unused and will be removed from module ARBITER_NEW.
+WARNING: [Synth 8-3332] Sequential element (RD_DATA_C1_reg[7]) is unused and will be removed from module ARBITER_NEW.
+WARNING: [Synth 8-3332] Sequential element (RD_DATA_C1_reg[6]) is unused and will be removed from module ARBITER_NEW.
+WARNING: [Synth 8-3332] Sequential element (RD_DATA_C1_reg[5]) is unused and will be removed from module ARBITER_NEW.
+WARNING: [Synth 8-3332] Sequential element (RD_DATA_C1_reg[4]) is unused and will be removed from module ARBITER_NEW.
+WARNING: [Synth 8-3332] Sequential element (RD_DATA_C1_reg[3]) is unused and will be removed from module ARBITER_NEW.
+WARNING: [Synth 8-3332] Sequential element (RD_DATA_C1_reg[2]) is unused and will be removed from module ARBITER_NEW.
+WARNING: [Synth 8-3332] Sequential element (RD_DATA_C1_reg[1]) is unused and will be removed from module ARBITER_NEW.
+WARNING: [Synth 8-3332] Sequential element (RD_DATA_C1_reg[0]) is unused and will be removed from module ARBITER_NEW.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1213.273 ; gain = 734.309
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1213.273 ; gain = 734.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1213.273 ; gain = 734.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1213.273 ; gain = 734.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1213.273 ; gain = 734.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1213.273 ; gain = 734.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1213.273 ; gain = 734.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1213.273 ; gain = 734.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1213.273 ; gain = 734.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |     2|
+|4     |LUT3 |    41|
+|5     |LUT4 |     9|
+|6     |LUT5 |    13|
+|7     |LUT6 |    11|
+|8     |FDCE |    14|
+|9     |FDRE |    22|
+|10    |LD   |     6|
+|11    |IBUF |    42|
+|12    |OBUF |    36|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   198|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1213.273 ; gain = 734.309
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 27 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1213.273 ; gain = 734.309
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 1213.273 ; gain = 734.309
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1223.082 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1315.582 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  LD => LDCE: 6 instances
+
+The system cannot find the path specified.
+Synth Design complete | Checksum: 327f9f1b
+INFO: [Common 17-83] Releasing license: Synthesis
+18 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:27 . Memory (MB): peak = 1315.582 ; gain = 844.160
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1315.582 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/downloads/.xinstall/Vivado/arbiter_V1/arbiter_V1.runs/synth_1/ARBITER_NEW.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ARBITER_NEW_utilization_synth.rpt -pb ARBITER_NEW_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 29 15:59:32 2023...
